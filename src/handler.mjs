@@ -43,12 +43,6 @@ export const getAllNotesHandler = () => ({
     }
 });
 
-export const getAllNotesHandler = () => ({
-    status: 'success',
-    data: {
-        notes,
-    }
-});
 
 export const getNoteByIdHandler = (request, h) => {
     const { id } = request.params;
